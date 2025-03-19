@@ -1,0 +1,80 @@
+.contact10-container1 {
+  height: 1951px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: flex-start;
+}
+ 
+.contact10-container2 {
+  top: 769px;
+  left: 248px;
+  width: 700px;
+  height: 412px;
+  display: flex;
+  position: absolute;
+  object-fit: cover;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: dashed;
+  margin-right: 0px;
+  background-size: cover;
+  justify-content: flex-end;
+  object-position: top-left;
+  background-image: url("/fotos%20de%20dubai_%2030%20imagens%20que%20mostram%20a%20modernidade%20dessa%20cidade-700w.jpg");
+}
+ 
+.contact10-container3 {
+  top: 554px;
+  left: 314px;
+  width: 529px;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.contact10-text1 {
+  fill: var(--dl-color-theme-accent1);
+  color: var(--dl-color-theme-accent1);
+  height: 243px;
+}
+ 
+.contact10-text2 {
+  text-align: center;
+}
+ 
+.contact10-container4 {
+  flex: 0 0 auto;
+  width: 507px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 411px;
+  display: flex;
+  background-size: cover;
+  background-image: url("/experience%20the%20magic%20of%20santorini-600w.jpg");
+}
+ 
+.contact10-text3 {
+  display: inline-block;
+}
+ 
+.contact10-text4 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .contact10-container2 {
+    object-fit: cover;
+    object-position: left;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .contact10-container1 {
+    height: 1506px;
+  }
+}
